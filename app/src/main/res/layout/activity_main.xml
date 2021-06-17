@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglogo"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="467dp"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="500dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo_depann"
+            android:layout_gravity="center"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_gravity="bottom"
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundstyle"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:padding="15dp"
+            android:text="@string/masuk"
+            app:backgroundTint="#000000" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_gravity="bottom"
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundstyle"
+            android:backgroundTint="@color/white"
+            android:padding="15dp"
+            android:text="@string/register"
+            app:backgroundTint="#000000" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
